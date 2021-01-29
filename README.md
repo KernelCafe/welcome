@@ -39,8 +39,9 @@ We are currently working on automated provisioning software for users (custom, G
 
 ## Infrastructure, Wave 3 (Mar) [BETA]:
 
-* (1) AMD Ryzen R7-4700U node running FreeBSD
-* (3) Intel i7-6500T nodes running DragonflyBSD, OpenBSD, and Fuschia
+* (1) Nvidia AGX Xavier (Ubuntu)
+* (1) AMD Ryzen R7-4700U (FreeBSD)
+* (3) Intel i7-6500T (DragonflyBSD, OpenBSD, and Fuschia?)
 
 ## Infrastructure, Wave 4 (Apr/May) [GA]:
 
