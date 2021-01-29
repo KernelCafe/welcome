@@ -18,7 +18,7 @@ Once the PR is merged, you will be able to SSH in to `<hostname>.kernel.cafe` wi
 
 As of Jan 28, 2021, we've installed our first proof-of-concept public access host: a M1 Mac Mini. SSH and VNC access are available, but only via IPv6.
 
-We are currently working on automated provisioning software for users and operating systems.
+We are currently working on automated provisioning software for users (custom, GitHub-based) and operating systems ([http://tinkerbell.org](tinkerbell)).
 
 ## Infrastructure, Wave 1 (~Feb 1):
 
@@ -37,12 +37,12 @@ We are currently working on automated provisioning software for users and operat
 | rockpro-2.netbsd.arm64 | NetBSD | NetBSD 9.1 | 6-core RK3399 | 4GiB  | 2021-02-TBD
 | kubernetes | Kubernetes v1.21-beta | N/A | 72GiB | 2020-02-TBD |
 
-## Infrastructure, Wave 3 (Mar):
+## Infrastructure, Wave 3 (Mar) [BETA]:
 
 * (1) AMD Ryzen R7-4700U node running FreeBSD
 * (3) Intel i7-6500T nodes running DragonflyBSD, OpenBSD, and Fuschia
 
-## Infrastructure, Wave 4 (Apr/May):
+## Infrastructure, Wave 4 (Apr/May) [GA]:
 
 * (1) RISC-V Unleashed (TBD)
 * (1) RISC-V Beagleboard (TBD)
