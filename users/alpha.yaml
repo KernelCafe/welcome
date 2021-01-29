@@ -1,4 +1,4 @@
 users:
-  - login: t
-    github: tstromberg
-
+  # mapping of UNIX user ID to GitHub handle
+  - t: tstromberg
+  - briandealwis: briandealwis
