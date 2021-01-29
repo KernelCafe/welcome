@@ -1,0 +1,6 @@
+users:
+  - login: t
+    github: tstromberg
+    name: Thomas Strömberg
+    location: San Francisco, CA, US
+    shell: fish
