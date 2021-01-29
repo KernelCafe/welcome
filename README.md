@@ -1,8 +1,6 @@
 # Welcome!
 
-Welcome home, to the Kernel Café! (alpha)
-
-## What is it?
+Welcome to the kernel café! 🍿☕
 
 The kernel café is a volunteer-run virtual hackerspace for open-source contributors. 
 
