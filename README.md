@@ -25,8 +25,8 @@ We are currently working on automated provisioning software for users (custom, G
 | Hostname                      | Kernel          | Distro     | Processor         | Memory | Date added |
 | ----------------------------- | --------------- | ---------- | ----------------- | ------ | ---------- |
 | mini-0.macos.arm64 | Darwin 20.2.0  | macOS 11.1 | 8-core Apple M1 | 16GiB  | 2021-01-28 |
-| rpi-0.linux.arm64 | Linux 5.x | Raspbian | 4-core BCM2711B0 @ 1.5GHz | 8GiB | TBD |
-| honeycomb-0.linux.arm64 | Linux 5.x | NixOS | 16-core 2GHz LX2160A | 64GiB | TBD | 
+| rpi-0.linux.arm64 | Linux 5.x | Raspbian | 4-core BCM2711B0 | 8GiB | TBD |
+| honeycomb-0.linux.arm64 | Linux 5.x | NixOS | 16-core LX2160A | 64GiB | TBD | 
 
 ## Infrastructure, Wave 2 (Feb):
 
