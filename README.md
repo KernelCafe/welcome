@@ -20,6 +20,12 @@ As of Jan 28, 2021, we've installed our first proof-of-concept public access hos
 
 We are currently working on automated provisioning software for users (custom, GitHub-based) and operating systems ([http://tinkerbell.org](tinkerbell)).
 
+## Donations
+
+We are not yet accepting donations, but plan to accept donations via GitHub Sponsors, Paypal, and hardware in March.
+
+For hardware donations we are only considering recent hardware (>2015) with <15W idle consumption. We are very much interested in adding support for riscv, mips, ppc64le, and other exotic architectures.
+
 ## Infrastructure, Wave 1 (~Feb 1):
 
 | Hostname                      | Kernel          | Distro     | Processor         | Memory | Date added |
