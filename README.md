@@ -18,7 +18,7 @@ Once the PR is merged, you will be able to SSH in to `<hostname>.kernel.cafe` wi
 
 As of Jan 28, 2021, we've installed our first proof-of-concept public access host: a M1 Mac Mini. SSH and VNC access are available, but only via IPv6.
 
-We are currently working on automated provisioning software for users (custom, GitHub-based) and operating systems ([http://tinkerbell.org](tinkerbell)).
+We are currently working on automated provisioning software for users (custom, GitHub-based) and operating systems ([tinkerbell](http://tinkerbell.org)).
 
 ## Donations
 
