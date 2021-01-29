@@ -16,7 +16,8 @@ As of Jan 28, 2021, we've installed our first public access host: a M1 Mac Mini.
 
 ## Infrastructure
 
-| Hostname | Kernel | Distro | Processor | Memory | Date added |
-| mini-0.macos.arm64.kernel.cafe | Darwin 20.2.0 | macOS 11.1 | Apple M1, 8 cores | 16GiB | 2021-01-28 |
-
+| Hostname                      | Kernel          | Distro     | Processor         | Memory | Date added |
+| ----------------------------- | --------------- | ---------- | ----------------- | ------ | ---------- |
+| mini-0.macos.arm64.kernel.cafe | Darwin 20.2.0  | macOS 11.1 | Apple M1, 8 cores | 16GiB  | 2021-01-28 |
+ 
 
