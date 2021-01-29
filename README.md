@@ -1,4 +1,4 @@
-# home
+# Welcome!
 
 Welcome home, to the Kernel Café! (alpha)
 
