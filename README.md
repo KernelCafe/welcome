@@ -1,6 +1,4 @@
-# Welcome!
-
-Welcome to the kernel café! 🍿☕
+# welcome to the kernel café! 🍿☕
 
 The kernel café is a volunteer-run virtual hackerspace for open-source contributors. 
 
