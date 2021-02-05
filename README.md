@@ -26,7 +26,7 @@ For hardware donations we are only considering recent hardware (>2015) with <15W
 
 ## Available Infrastructure
 
-NOTE: Rather than memorizing hostnames, connect via `ssh <distro>.<arch>.kernel.cafe` to access the best available host.
+NOTE: Rather than memorizing hostnames, connect via `ssh <os>.<arch>.kernel.cafe` to access the best available host.
 
 
 | Hostname     | Arch    | Distro          | Hardware                  | Cores | Mem (GB) |
