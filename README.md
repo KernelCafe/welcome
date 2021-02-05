@@ -26,34 +26,35 @@ For hardware donations we are only considering recent hardware (>2015) with <15W
 
 ## Available Infrastructure
 
+NOTE: Rather than memorizing hostnames, connect via `ssh <distro>.<arch>.kernel.cafe` to access the best available host.
+
+
 | Hostname     | Arch    | Distro          | Hardware                  | Cores | Mem (GB) |
 | ------------ | ------- | --------------- | ------------------------- | ----- | -------- |
-| mini         | arm64   | macOS 11.1      | Mac Mini (M1)             | 8     | 16       |
+| minnie       | arm64   | macOS 11.1      | Mac Mini (M1)             | 8     | 16       |
 | pixie        | arm64   | Raspbian 10     | Raspberry Pi 4            | 4     | 8        |
 | agitatrix    | arm64   | Ubuntu 20.04    | Nvidia AGX Xavier         | 8     | 32       |
 
 ## Coming Soon (Mar 2021)
 
-| Hostname     | Arch      | Distro     | Hardware                | Cores |  Mem (GB) | 
-| ------------ | --------- | ---------- | ----------------------- | ----- | --------- |
-| mixte        | (various) | Kubernetes | N/A                     | TBD   | TBD       |
-| honeycomb    | arm64     | NixOS      | Honeycomb LX2           | 16    | 64        |
-| pi           | arm       | Raspbian   | Raspberry Pi 3          | 4     | 2         |
-| tungsten     | arm64     | Arch Linux | RockPro64               | 6     | 4         |
-| feldspar     | arm64     | Fedora     | RockPro64               | 6     | 4         |
-| nephelinite  | arm64     | NetBSD     | RockPro64               | 6     | 4         |
-| pneumatic    | x64       | FreeBSD    | Asus PN50 (Ryzen 4700U) | 8     | 4         | 
-| halfpenny    | x64       | FreeBSD    | HP ProDesk G2 (i7-6700T) | 4    | 16G     |
-| halophyte    | x64       | Windows    | HP ProDesk G2 (i7-6700T) | 16GiB |
-| sempster     | x64       | Windows    | TBD | Threadripper       | 64GiB |
+| Hostname     | Arch      | Distro       | Hardware                   | Cores |  Mem (GB) | 
+| ------------ | --------- | ------------ | -------------------------- | ----- | --------- |
+| mixte        | (various) | Kubernetes   | N/A                        | TBD   | TBD       |
+| honeycomb    | arm64     | NixOS        | Honeycomb LX2              | 16    | 64        |
+| rhubarb      | arm32     | Raspbian     | Raspberry Pi 3             | 4     | 2         |
+| tungsten     | arm64     | Arch Linux   | RockPro64                  | 6     | 4         |
+| feldspar     | arm64     | Fedora       | RockPro64                  | 6     | 4         |
+| nephelinite  | arm64     | NetBSD       | RockPro64                  | 6     | 4         |
+| pneumatic    | x86-64    | FreeBSD      | Asus PN50 (Ryzen 4700U)    | 8     | 4         | 
+| halfpenny    | x86-64    | DragonflyBSD | HP ProDesk G2 (i7-6700T)   | 4     | 16        |
+| halophyte    | x86-64    | Kylin        | HP ProDesk G2 (i7-6700T)   | 4     | 16        |
+| sempster     | x86-64    | Windows      | Threadripper 1950X         | 16    | 64        |
+| shallot      | mips      | OpenWRT      | Onion Omega2 Dash          | 1     | 128MB     |   
 
 ## Coming Later (June 2021)
 
-| Hostname                      | Kernel          | Distro     | Processor         | Memory | 
-| ----------------------------- | --------------- | ---------- | ----------------- | ------ |
-| rockpro-4.freebsd.arm64 | arm64 | FreeBSD | TBD | 6-core RK3399 | 4GiB  |
-| prodesk-1.linux.amd64 | amd64 | Linux | TBD | i7-6700T | 16GiB |
-| unleashed-0.linux.riscv | riscv | Linux | TBD | TBD | TBD |
-| beagleboard-0.freebsd.riscv | riscv | FreeBSD | TBD | TBD | TBD |
-| qemu-0.linux.s390x | s390x | Linux | TBD | TBD | TBD |
-
+* FreeBSD/arm64 (RockPro64)
+* OpenBSD/x64 (QEMU)
+* Linux/s390x (QEMU)
+* Linux/ppc64le (TBD)
+* Linux/riscv (SiFive Unleashed)
