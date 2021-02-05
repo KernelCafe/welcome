@@ -26,11 +26,11 @@ For hardware donations we are only considering recent hardware (>2015) with <15W
 
 ## Available Infrastructure
 
-| Hostname                      | Arch | Distro     | Hardware          | Memory |
-| ----------------------------- | ---- | --------------- | ---------- | ----------------- | ------ |
-| mini-0.macos.arm64 | arm64 | macOS 11.1 | Mac Mini, 8-core Apple M1 | 16GiB  |
-| rpi4-0.linux.arm64 | arm64 | Raspbian 10 | Raspberry Pi 4, 4-core BCM2711B0 | 8GiB |
-| agx-0.linux.arm64 | arm64 | Linux 4.9.140-tegra | Ubuntu 18.04 | Nvidia AGX Xavier, 8-core | 32GiB |
+| Hostname                      | Arch | Distro          | Hardware                  | Memory |
+| ----------------------------- | ---- | --------------- | ------------------------- | ------ |
+| mini-0.macos.arm64            | arm64 | macOS 11.1     | Mac Mini, 8-core Apple M1 | 16GiB  |
+| rpi4-0.linux.arm64            | arm64 | Raspbian 10    | Raspberry Pi 4, 4-core    | 8GiB   |
+| agx-0.linux.arm64             | arm64 | Ubuntu 18.04   | Nvidia AGX Xavier, 8-core | 32GiB  |
 
 ## Coming Soon (Mar 2021)
 
