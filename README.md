@@ -26,24 +26,26 @@ For hardware donations we are only considering recent hardware (>2015) with <15W
 
 ## Available Infrastructure
 
-| Hostname                      | Arch | Distro          | Hardware                  | Memory |
-| ----------------------------- | ---- | --------------- | ------------------------- | ------ |
-| mini-0.macos.arm64            | arm64 | macOS 11.1     | Mac Mini, 8-core Apple M1 | 16GiB  |
-| rpi4-0.linux.arm64            | arm64 | Raspbian 10    | Raspberry Pi 4, 4-core    | 8GiB   |
-| agx-0.linux.arm64             | arm64 | Ubuntu 18.04   | Nvidia AGX Xavier, 8-core | 32GiB  |
+| Hostname     | Arch    | Distro          | Hardware                  | Cores | Mem (GB) |
+| ------------ | ------- | --------------- | ------------------------- | ----- | -------- |
+| mini         | arm64   | macOS 11.1      | Mac Mini (M1)             | 8     | 16       |
+| pixie        | arm64   | Raspbian 10     | Raspberry Pi 4            | 4     | 8        |
+| agitatrix    | arm64   | Ubuntu 20.04    | Nvidia AGX Xavier         | 8     | 32       |
 
 ## Coming Soon (Mar 2021)
 
-| Hostname                      | Kernel          | Distro     | Processor         | Memory | 
-| ----------------------------- | --------------- | ---------- | ----------------- | ------ |
-| kubernetes | Kubernetes! | Kubernetes v1.21-beta | N/A | 72GiB | 2020-02-TBD |
-| honeycomb-0.linux.arm64 | arm64 | TBD | TBD | Honeycomb LX2, 16-core LX2160A | 64GiB |
-| rpi3-0.linux.arm64 | arm | TBD | Raspbian | Raspberry Pi 3 | 2GiB |
-| rockpro-0.linux.arm64 | arm64 | TBD | TBD | 6-core RK3399 | 4GiB  |
-| rockpro-1.linux.arm64 | arm64 | TBD | TBD | 6-core RK3399 | 4GiB  |
-| rockpro-2.netbsd.arm64 | arm64 | NetBSD | NetBSD 9.1 | 6-core RK3399 | 4GiB  | 
-| prodesk-0.freebsd.amd64 | amd64 | FreeBSD | TBD | i7-6700T | 16GiB |
-| pn50-0.linux.amd64 | amd64 | Linux | TBD | Ryzen 4700U | 64GiB |
+| Hostname     | Arch      | Distro     | Hardware                | Cores |  Mem (GB) | 
+| ------------ | --------- | ---------- | ----------------------- | ----- | --------- |
+| mixte        | (various) | Kubernetes | N/A                     | TBD   | TBD       |
+| honeycomb    | arm64     | NixOS      | Honeycomb LX2           | 16    | 64        |
+| pi           | arm       | Raspbian   | Raspberry Pi 3          | 4     | 2         |
+| tungsten     | arm64     | Arch Linux | RockPro64               | 6     | 4         |
+| feldspar     | arm64     | Fedora     | RockPro64               | 6     | 4         |
+| nephelinite  | arm64     | NetBSD     | RockPro64               | 6     | 4         |
+| pneumatic    | x64       | FreeBSD    | Asus PN50 (Ryzen 4700U) | 8     | 4         | 
+| halfpenny    | x64       | FreeBSD    | HP ProDesk G2 (i7-6700T) | 4    | 16G     |
+| halophyte    | x64       | Windows    | HP ProDesk G2 (i7-6700T) | 16GiB |
+| sempster     | x64       | Windows    | TBD | Threadripper       | 64GiB |
 
 ## Coming Later (June 2021)
 
