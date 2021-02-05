@@ -1,6 +1,6 @@
 # welcome to the kernel café! 🍿☕
 
-<a href="https://discordapp.com/widget?id=806023590348062750&theme=dark"><img src="https://img.shields.io/discord/806023590348062750"></a>
+<a href="https://discord.gg/s8nwgXQaKP"><img src="https://img.shields.io/discord/806023590348062750"></a>
 
 The kernel café is a volunteer-run virtual hackerspace for open-source contributors. 
 
