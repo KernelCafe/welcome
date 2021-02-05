@@ -22,7 +22,7 @@ As of Feb 3, 2021, the kernel café is in alpha, with 3 arm64 nodes available fo
 
 We are not yet accepting donations, but plan to accept donations via GitHub Sponsors, Paypal, and hardware in March.
 
-For hardware donations we are only considering recent hardware (>2015) with <15W idle consumption. We are very much interested in adding support for riscv, mips, ppc64le, and other exotic architectures.
+For hardware donations we are only considering recent hardware with low power consumption. We are very much interested in adding support for riscv, mips, ppc64le, and other exotic architectures.
 
 ## Available Infrastructure
 
