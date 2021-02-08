@@ -10,7 +10,7 @@ We provide public infrastructure with new technologies, such as interactive acce
 
 ## Getting access 
 
-Send a PR adding a user entry to `users/alpha.yaml`. 
+Send a PR adding your user name to `users/users.yaml`. 
 
 Once the PR is merged, you will be able to SSH in to `<hostname>.kernel.cafe` with the SSH keys you have provided to GitHub. 
 

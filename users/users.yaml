@@ -1,0 +1,15 @@
+users:
+  - name: t
+    github: tstromberg
+    groups:
+      - barista
+      - contributor 
+
+  - name: briandealwis
+    github: briandealwis
+
+  - name: jonjohnson
+    github: jonjohnsonjr
+
+  - name: urbano
+    github: puerco
