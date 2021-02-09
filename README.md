@@ -47,7 +47,7 @@ For hardware donations we are only considering recent hardware with low power co
 | halophyte    | linux.amd64     | x86-64    | Kylin        | HP ProDesk G2 (i7-6700T)   | 4     | 16        |
 | sempster     | windows.amd64   | x86-64    | Windows      | Threadripper 1950X         | 16    | 64        |
 | shallot      | linux.mips      | mips      | OpenWRT      | Onion Omega2 Dash          | 1     | 128MB     |   
-| maxi         | macos.amd64.    | x86-64    | macOS        | Apple Mac Mini (i7)        | 6     | 32 GB     |
+| maxi         | macos.amd64    | x86-64    | macOS        | Apple Mac Mini (i7)        | 6     | 32 GB     |
 
 ## Coming Later (June 2021)
 
