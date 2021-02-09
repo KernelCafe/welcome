@@ -31,7 +31,7 @@ NOTE: Rather than memorizing hostnames, connect via `ssh <os>.<arch>.kernel.cafe
 
 | Hostname     | Arch    | Distro          | Hardware                  | Cores | Mem (GB) |
 | ------------ | ------- | --------------- | ------------------------- | ----- | -------- |
-| minnie       | arm64   | macOS 11.1      | Mac Mini (M1)             | 8     | 16       |
+| minnie       | arm64   | macOS 11.1      | Apple Mac Mini (M1)       | 8     | 16       |
 | pixie        | arm64   | Raspbian 10     | Raspberry Pi 4            | 4     | 8        |
 | agitatrix    | arm64   | Ubuntu 20.04    | Nvidia AGX Xavier         | 8     | 32       |
 
@@ -50,6 +50,7 @@ NOTE: Rather than memorizing hostnames, connect via `ssh <os>.<arch>.kernel.cafe
 | halophyte    | x86-64    | Kylin        | HP ProDesk G2 (i7-6700T)   | 4     | 16        |
 | sempster     | x86-64    | Windows      | Threadripper 1950X         | 16    | 64        |
 | shallot      | mips      | OpenWRT      | Onion Omega2 Dash          | 1     | 128MB     |   
+| maxi         | x86-64    | macOS        | Apple Mac Mini (i7)        | 6     | 32 GB     |
 
 ## Coming Later (June 2021)
 
