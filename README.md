@@ -10,9 +10,11 @@ We provide public infrastructure with new technologies, such as interactive acce
 
 ## Getting access 
 
-Send a PR adding your user name to `users/users.yaml`. 
+Send a PR adding your entry to the bottom of `auth/users.yaml`:
 
-Once the PR is merged, you will be able to SSH in to `<hostname>.kernel.cafe` with the SSH keys you have provided to GitHub. 
+https://github.com/KernelCafe/welcome/blob/34025540b25825a4739a2b327a3ce48b92410a34/auth/users.yaml#L1
+
+Once the PR is merged, you will be added to the organization, and able to SSH in to `<hostname>.kernel.cafe` with the SSH keys you have provided to GitHub. 
 
 ## What's the state of the café?
 
