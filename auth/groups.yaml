@@ -1,0 +1,23 @@
+groups:
+  # sysadmins (folks who have donated hardware)
+  barista:
+    id: 2000
+    sudo: true
+
+  # contributors (folks who have donated time: 5 issues or PR's)
+  contributor:
+    id: 2001
+
+  # folks who have donated money ($1 or more)
+  patron:
+    id: 2002
+
+  # alpha testers (before March 1st)
+  alpha:
+    id: 2050
+
+  # beta testers (March - April 1st)
+  beta:
+    id: 2051
+
+
