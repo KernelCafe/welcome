@@ -26,36 +26,35 @@ For hardware donations we are only considering recent hardware with low power co
 
 ## Available Infrastructure
 
-NOTE: Rather than memorizing hostnames, connect via `ssh <os>.<arch>.kernel.cafe` to access the best available host.
-
-
-| Hostname     | Arch    | Distro          | Hardware                  | Cores | Mem (GB) |
-| ------------ | ------- | --------------- | ------------------------- | ----- | -------- |
-| minnie       | arm64   | macOS 11.1      | Apple Mac Mini (M1)       | 8     | 16       |
-| pixie        | arm64   | Raspbian 10     | Raspberry Pi 4            | 4     | 8        |
-| agitatrix    | arm64   | Ubuntu 20.04    | Nvidia AGX Xavier         | 8     | 32       |
+| Hostname     | Alias       | Arch    | Distro          | Hardware                  | Cores | Mem (GB) |
+| ------------ | ----------- | ------- | --------------- | ------------------------- | ----- | -------- |
+| minnie       | macos.arm64 | arm64   | macOS 11.1      | Apple Mac Mini (M1)       | 8     | 16       |
+| pixie        |             | arm64   | Raspbian 10     | Raspberry Pi 4            | 4     | 8        |
+| agitatrix    | linux.arm64 | arm64   | Ubuntu 20.04    | Nvidia AGX Xavier         | 8     | 32       |
 
 ## Coming Soon (Mar 2021)
 
-| Hostname     | Arch      | Distro       | Hardware                   | Cores |  Mem (GB) | 
-| ------------ | --------- | ------------ | -------------------------- | ----- | --------- |
-| mixte        | (various) | Kubernetes   | N/A                        | TBD   | TBD       |
-| honeycomb    | arm64     | NixOS        | Honeycomb LX2              | 16    | 64        |
-| rhubarb      | arm32     | Raspbian     | Raspberry Pi 3             | 4     | 2         |
-| tungsten     | arm64     | Arch Linux   | RockPro64                  | 6     | 4         |
-| feldspar     | arm64     | Fedora       | RockPro64                  | 6     | 4         |
-| nephelinite  | arm64     | NetBSD       | RockPro64                  | 6     | 4         |
-| pneumatic    | x86-64    | FreeBSD      | Asus PN50 (Ryzen 4700U)    | 8     | 4         | 
-| halfpenny    | x86-64    | DragonflyBSD | HP ProDesk G2 (i7-6700T)   | 4     | 16        |
-| halophyte    | x86-64    | Kylin        | HP ProDesk G2 (i7-6700T)   | 4     | 16        |
-| sempster     | x86-64    | Windows      | Threadripper 1950X         | 16    | 64        |
-| shallot      | mips      | OpenWRT      | Onion Omega2 Dash          | 1     | 128MB     |   
-| maxi         | x86-64    | macOS        | Apple Mac Mini (i7)        | 6     | 32 GB     |
+| Hostname     | Alias           | Arch      | Distro       | Hardware                   | Cores |  Mem (GB) | 
+| ------------ | --------------- | --------- | ------------ | -------------------------- | ----- | --------- |
+|              | kubernetes      | (various) | Kubernetes   | Variou                     | 32+   | 100+      |
+| honeycomb    |                 | arm64     | NixOS        | Honeycomb LX2              | 16    | 64        |
+| rhubarb      | linux.arm32     | arm32     | Raspbian     | Raspberry Pi 3             | 4     | 2         |
+| tungsten     |                 |  arm64     | Arch Linux   | RockPro64                  | 6     | 4         |
+| feldspar     |                 | arm64     | Fedora       | RockPro64                  | 6     | 4         |
+| nephelinite  | netbsd.arm64    | arm64     | NetBSD       | RockPro64                  | 6     | 4         |
+| pneumatic    | freebsd.amd64   | x86-64    | FreeBSD      | Asus PN50 (Ryzen 4700U)    | 8     | 4         | 
+| halfpenny    | dragonfly.amd64 | x86-64    | DragonflyBSD | HP ProDesk G2 (i7-6700T)   | 4     | 16        |
+| halophyte    | linux.amd64     | x86-64    | Kylin        | HP ProDesk G2 (i7-6700T)   | 4     | 16        |
+| sempster     | windows.amd64   | x86-64    | Windows      | Threadripper 1950X         | 16    | 64        |
+| shallot      | linux.mips      | mips      | OpenWRT      | Onion Omega2 Dash          | 1     | 128MB     |   
+| maxi         | macos.amd64.    | x86-64    | macOS        | Apple Mac Mini (i7)        | 6     | 32 GB     |
 
 ## Coming Later (June 2021)
 
+* Linux/riscv (SiFive Unleashed)
 * FreeBSD/arm64 (RockPro64)
+* Linux/ppc64le (Talos Blackbird)
 * OpenBSD/x64 (QEMU)
 * Linux/s390x (QEMU)
-* Linux/ppc64le (TBD)
-* Linux/riscv (SiFive Unleashed)
+* ReactOS/x86 (QEMU)
+* Fuschia (TBD)
