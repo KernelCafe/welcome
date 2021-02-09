@@ -36,7 +36,7 @@ For hardware donations we are only considering recent hardware with low power co
 
 | Hostname     | Alias           | Arch      | Distro       | Hardware                   | Cores |  Mem (GB) | 
 | ------------ | --------------- | --------- | ------------ | -------------------------- | ----- | --------- |
-|              | kubernetes      | (various) | Kubernetes   | Variou                     | 32+   | 100+      |
+|              | kubernetes      | (various) | Kubernetes   | (various)                  | 32+   | 100+      |
 | honeycomb    |                 | arm64     | NixOS        | Honeycomb LX2              | 16    | 64        |
 | rhubarb      | linux.arm32     | arm32     | Raspbian     | Raspberry Pi 3             | 4     | 2         |
 | tungsten     |                 |  arm64     | Arch Linux   | RockPro64                  | 6     | 4         |
