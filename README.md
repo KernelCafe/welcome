@@ -36,7 +36,7 @@ For hardware donations we are only considering recent hardware with low power co
 
 | Hostname     | Alias           | Arch      | Distro       | Hardware                   | Cores |  Mem (GB) | 
 | ------------ | --------------- | --------- | ------------ | -------------------------- | ----- | --------- |
-|              | kubernetes      | (various) | Kubernetes   | (various)                  | 32+   | 100+      |
+| k             | kubernetes      | (various) | Kubernetes   | (various)                  | 32+   | 100+      |
 | honey    |                 | arm64     | NixOS        | Honeycomb LX2              | 16    | 64        |
 | rhubarb     | linux.arm32     | arm32     | Raspbian     | Raspberry Pi 3             | 4     | 2         |
 | pin    | freebsd.amd64   | x86-64    | FreeBSD      | Asus PN50 (Ryzen 4700U)    | 8     | 4         | 
