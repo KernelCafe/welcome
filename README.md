@@ -28,29 +28,29 @@ For hardware donations we are only considering recent hardware with low power co
 
 | Hostname     | Alias       | Arch    | Distro          | Hardware                  | Cores | Mem (GB) |
 | ------------ | ----------- | ------- | --------------- | ------------------------- | ----- | -------- |
-| minnie       | macos.arm64 | arm64   | macOS 11.1      | Apple Mac Mini (M1)       | 8     | 16       |
-| pixie        |             | arm64   | Raspbian 10     | Raspberry Pi 4            | 4     | 8        |
-| agitatrix    | linux.arm64 | arm64   | Ubuntu 20.04    | Nvidia AGX Xavier         | 8     | 32       |
+| min       | macos.arm64 | arm64   | macOS 11.1      | Apple Mac Mini (M1)       | 8     | 16       |
+| pi        |             | arm64   | Raspbian 10     | Raspberry Pi 4            | 4     | 8        |
+| agx    | linux.arm64 | arm64   | Ubuntu 20.04    | Nvidia AGX Xavier         | 8     | 32       |
 
 ## Coming Feb 2021 (alpha)
 
 | Hostname     | Alias           | Arch      | Distro       | Hardware                   | Cores |  Mem (GB) | 
 | ------------ | --------------- | --------- | ------------ | -------------------------- | ----- | --------- |
 |              | kubernetes      | (various) | Kubernetes   | (various)                  | 32+   | 100+      |
-| honeycomb    |                 | arm64     | NixOS        | Honeycomb LX2              | 16    | 64        |
-| rhubarb      | linux.arm32     | arm32     | Raspbian     | Raspberry Pi 3             | 4     | 2         |
-| pneumatic    | freebsd.amd64   | x86-64    | FreeBSD      | Asus PN50 (Ryzen 4700U)    | 8     | 4         | 
-| halophyte    | linux.amd64     | x86-64    | Kylin        | HP ProDesk G2 (i7-6700T)   | 4     | 16        |
-| shallot      | linux.mips      | mips      | OpenWRT      | Onion Omega2 Dash          | 1     | 128MB     |   
-| maxi         | macos.amd64     | x86-64    | macOS        | Apple Mac Mini (i7)        | 6     | 32 GB     |
+| honey    |                 | arm64     | NixOS        | Honeycomb LX2              | 16    | 64        |
+| rhubarb     | linux.arm32     | arm32     | Raspbian     | Raspberry Pi 3             | 4     | 2         |
+| pin    | freebsd.amd64   | x86-64    | FreeBSD      | Asus PN50 (Ryzen 4700U)    | 8     | 4         | 
+| hip    | linux.amd64     | x86-64    | Kylin        | HP ProDesk G2 (i7-6700T)   | 4     | 16        |
+| dash      | linux.mips      | mips      | OpenWRT      | Onion Omega2 Dash          | 1     | 128MB     |   
+| max         | macos.amd64     | x86-64    | macOS        | Apple Mac Mini (i7)        | 6     | 32 GB     |
 
 ## Coming Mar 2021 (beta)
 
 | Hostname     | Alias           | Arch      | Distro       | Hardware                   | Cores |  Mem (GB) | 
 | ------------ | --------------- | --------- | ------------ | -------------------------- | ----- | --------- |
-| tungsten     |                 | arm64     | Arch Linux   | RockPro64                  | 6     | 4         |
-| feldspar     |                 | arm64     | Fedora       | RockPro64                  | 6     | 4         |
-| nephelinite  | netbsd.arm64    | arm64     | NetBSD       | RockPro64                  | 6     | 4         |
+| dory     |                 | arm64     | Fedora       | RockPro64                  | 6     | 4         |
+| nemo  | netbsd.arm64    | arm64     | NetBSD       | RockPro64                  | 6     | 4         |
+| squirt     |                 | arm64     | Arch Linux   | RockPro64                  | 6     | 4         |
 
 ## Coming Later (post-release)
 
