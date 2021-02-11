@@ -14,5 +14,8 @@ users:
   - name: urbano
     github: puerco
   
+  - name: suztomo
+    github: suztomo
+
   - name: matteojoliveau
     github: matteojoliveau
