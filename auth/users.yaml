@@ -2,8 +2,7 @@ users:
   - name: t
     github: tstromberg
     groups:
-      - barista
-      - contributor 
+      - maintainer
 
   - name: briandealwis
     github: briandealwis

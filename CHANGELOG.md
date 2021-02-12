@@ -1,5 +1,14 @@
 ## Alpha 2 (TBD)
 
+### 2021-02-11
+
+* Documented node addition process
+* Added onion
+
+### 2021-02-10
+
+* Users are now synchronized periodically via Ansible
+
 ### 2021-02-09
 
 * Added "alias" column to host sheet

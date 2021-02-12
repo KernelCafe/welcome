@@ -1,15 +1,15 @@
 groups:
   # all cafe members
-  cafe: 2000
+  cafe: 2001
   
   # earlybirds are early adopters (grandfathered in to no limits)
-  earlybird: 2001
+  earlybird: 2002
   
   # members who have contributed in an especially meaningful way (issues, PR's)
-  contributor: 2002
+  contributor: 2003
   
   #  patrions are members who have donated money or hardware
-  patron: 2005
+  patron: 2004
   
-  # baristas are system administrators who operate hardware
-  barista: 2010
+  # maintainers are users with root access
+  maintainer: 2005
