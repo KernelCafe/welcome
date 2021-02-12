@@ -2,19 +2,21 @@
 
 <a href="https://discord.gg/s8nwgXQaKP"><img src="https://img.shields.io/discord/806023590348062750"></a>
 
-<img src="logo.png">
+<img src="docs/logo.png">
 
-The kernel café is a volunteer-run virtual hackerspace for open-source contributors. 
+The kernel café is a volunteer-run virtual hackerspace for open-source developers and fans.
+
+<img src="docs/photo.jpg">
 
 We provide public infrastructure with new technologies, such as interactive access to ARM & RISCV hardware, IPv6 networking, bleeding-edge kernels, a public mixed-architecture Kubernetes cluster.
 
 ## Getting access 
 
-Add your username to the bottom of [auth/users.yaml](auth/users.yaml), and send us a PR. Once merged, you will be added to the organization, and able to SSH in to `<hostname>.kernel.cafe` with the SSH keys you have provided to GitHub. 
+Add your username to the bottom of [auth/users.yaml](auth/users.yaml), and send us a PR. Once merged, you will be added to the organization, and able to SSH in with to `<hostname>.kernel.cafe` with the SSH keys you have provided to GitHub (IPv6 required)
 
 ## What's the state of the café?
 
-As of Feb 3, 2021, the kernel café is in alpha, with 3 arm64 nodes available for public access via IPv6. We are working on automated provisioning software for users (custom, GitHub-based) and operating systems ([tinkerbell](http://tinkerbell.org)).
+As of Feb 12, 2021, the kernel café is in alpha, with a handful of arm64 navailable for public access. We are adding machines weekly, and improving our automation to scale out faster.
 
 The café is expected to hit beta on March 1st, and public release on April 1st.
 

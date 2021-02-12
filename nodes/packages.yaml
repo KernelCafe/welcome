@@ -1,0 +1,43 @@
+# When possible, nodes are expected to contain the latest version of the
+# following.
+
+# If you have additional requests, please open an issue.
+
+packages:
+  languages:
+    - clang
+    - dart
+    - gcc
+    - go
+    - kotlin
+    - python
+    - openjdk
+    - rust
+
+  shells:
+    - sh
+    - bash
+    - fish
+    - tcsh
+    - zsh
+
+  editors:
+    - joe
+    - vim
+    - neovim
+    - emacs
+    - pico
+
+  rcs:
+    - git
+    - svn
+    - mercurial
+
+  utils:
+    - screen
+    - tmux
+
+  networking:
+    - curl
+    - jq
+    - ytalk
