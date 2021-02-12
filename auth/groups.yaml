@@ -8,8 +8,16 @@ groups:
   # members who have contributed in an especially meaningful way (issues, PR's)
   contributor: 2003
   
-  #  patrions are members who have donated money or hardware
+  # patrions are members who have donated money or hardware
   patron: 2004
   
   # maintainers are users with root access
   maintainer: 2005
+
+  
+
+
+  # random groups
+  minikube: 2100
+  skaffold: 2101
+  

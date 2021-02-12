@@ -6,6 +6,8 @@ users:
 
   - name: briandealwis
     github: briandealwis
+    groups:
+      - skaffold
 
   - name: jonjohnson
     github: jonjohnsonjr
@@ -18,3 +20,63 @@ users:
 
   - name: matteojoliveau
     github: matteojoliveau
+
+  - name: priyawadhwa
+    github: priyawadhwa
+    groups:
+      - minikube
+
+  - name: izuyev
+    github: ilya-zuyev
+    groups:
+      - minikube
+
+  - name: selgamal
+    github: sharifelgamal
+    groups:
+      - minikube
+
+  - name: zyanshu
+    github: azhao155
+    groups:
+      - minikube
+
+  - name: afbjorklund
+    github: afbjorklund
+    groups:
+      - minikube
+
+  - name: medya
+    github: medyagh
+    groups:
+      - minikube
+
+  - name: powellsteven
+    github: spowelljr
+    groups:
+      - minikube
+  
+  - name: tejaldesai
+    github: tejal29
+    groups:
+      - skaffold
+      
+  - name: gaghosh
+    github: gsquared94
+    groups:
+      - skaffold
+      
+  - name: modali
+    github: priyamodali
+    groups:
+      - skaffold
+
+  - name: nkubala
+    github: nkubala
+    groups:
+      - skaffold
+
+  - name: marlongamez
+    github: marlongamez
+    groups:
+      - skaffold
