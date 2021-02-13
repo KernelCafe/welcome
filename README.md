@@ -31,7 +31,7 @@ For hardware donations we are only considering recent hardware with low power co
 | Hostname     | Alias       | Arch    | Distro          | Hardware                  | Cores | Mem (GB) |
 | ------------ | ----------- | ------- | --------------- | ------------------------- | ----- | -------- |
 | min       | macos.arm64 | arm64   | macOS 11.1      | Apple Mac Mini (M1)       | 8     | 16       |
-| max         | macos.amd64     | x86-64    | macOS        | Apple Mac Mini (i7)        | 6     | 32 GB     
+| max         | macos.amd64     | x86-64    | macOS        | Apple Mac Mini (i7)        | 6     | 32  |     
 | pi        |             | arm64   | Raspbian 10 (soon NixOS)     | Raspberry Pi 4            | 4     | 8        |
 | x         | linux.arm64 | arm64   | Ubuntu 20.04    | Nvidia AGX Xavier         | 8     | 32       |
 
