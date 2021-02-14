@@ -38,7 +38,7 @@ As of Feb 14, 2021, the kernel café is in alpha. We are adding machines weekly,
 
 | Hostname     | Alias           | Arch      | Distro       | Hardware                      | Cores |  Mem (GB) |
 | ------------ | --------------- | --------- | ------------ | ----------------------------- | ----- | --------- | 
-| shrimp-cafe  | linux.ppc64le   | ppc64le   |  Fedora       | Raptor Blackbird POWER9 🌏   | 8     | 64        | 
+| shrimp-paste | linux.ppc64le   | ppc64le   |  Fedora       | Raptor Blackbird POWER9 🌏   | 8     | 64        | 
 | omega        | linux.mips      | mips      | OpenWRT      | Onion Omega2 Dash             | 1     | 128MB     |
 | honey        | linux.arm64     | arm64     | Arch         | SolidRun Honeycomb LX2        | 16    | 64        |
 | rad          | linux.arm32     | arm32     | Raspbian     | Raspberry Pi 3                | 4     | 2         |
