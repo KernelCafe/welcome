@@ -7,6 +7,12 @@
 # os:     should match nomenclature used by GOOS
 # distro: free-form distribution field, like "macOS" or "Ubuntu"
 
+- name: shrimp-paste
+  arch: ppc64le
+  os: Linux
+  distro: Fedora
+  ip: "2401:d002:4100:200:1::9"
+
 - name: min
   arch: arm64
   os: Darwin
