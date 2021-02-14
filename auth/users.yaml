@@ -4,11 +4,6 @@ users:
     groups:
       - maintainer
 
-  - name: tle
-    github: runlevel5
-    groups:
-      - maintainer
-
   - name: briandealwis
     github: briandealwis
     groups:
@@ -85,3 +80,9 @@ users:
     github: marlongamez
     groups:
       - skaffold
+      
+  - name: tle
+    github: runlevel5
+    groups:
+      - maintainer
+
