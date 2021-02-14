@@ -4,6 +4,11 @@ users:
     groups:
       - maintainer
 
+  - name: tle
+    github: runlevel5
+    groups:
+      - maintainer
+
   - name: briandealwis
     github: briandealwis
     groups:
