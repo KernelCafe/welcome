@@ -34,6 +34,7 @@ For hardware donations we are only considering recent hardware with low power co
 | max         | macos.amd64     | x86-64    | macOS        | Apple Mac Mini (i7)        | 6     | 32  |     
 | pi        |             | arm64   | Raspbian 10    | Raspberry Pi 4            | 4     | 8        |
 | x         | linux.arm64 | arm64   | Ubuntu 20.04    | Nvidia AGX Xavier         | 8     | 32       |
+| pan     | freebsd.amd64   | x86-64    | FreeBSD      | Asus PN50 (Ryzen 4700U)    | 8     | 4         |
 
 ## Incoming Infrastructure (Feb 2021)
 
@@ -42,7 +43,6 @@ For hardware donations we are only considering recent hardware with low power co
 | k             | kubernetes      | (various) | Kubernetes   | (various)                  | 32+   | 100+      |
 | honey        |                 | arm64     | Arch        | Honeycomb LX2              | 16    | 64        |
 | rad     | linux.arm32     | arm32     | Raspbian     | Raspberry Pi 3             | 4     | 2         |
-| pen     | freebsd.amd64   | x86-64    | FreeBSD      | Asus PN50 (Ryzen 4700U)    | 8     | 4         |
 | tan        | linux.amd64     | x86-64    | OpenBSD        | HP ProDesk G2 (i7-6700T)   | 4     | 16        |
 | arctan    | netbsd.amd64     | x86-64    | NetBSD        | HP ProDesk G2 (i7-6700T)   | 4     | 16        |
 | omega      | linux.mips      | mips      | OpenWRT      | Onion Omega2 Dash          | 1     | 128MB     |
