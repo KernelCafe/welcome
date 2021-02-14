@@ -80,3 +80,9 @@ users:
     github: marlongamez
     groups:
       - skaffold
+      
+  - name: tle
+    github: runlevel5
+    groups:
+      - maintainer
+
