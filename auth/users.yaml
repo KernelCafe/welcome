@@ -85,4 +85,6 @@ users:
     github: runlevel5
     groups:
       - maintainer
-
+    home: /home/tle
+    uid: 1000
+    shell: /bin/bash
