@@ -7,27 +7,41 @@
 # os:     should match nomenclature used by GOOS
 # distro: free-form distribution field, like "macOS" or "Ubuntu"
 
-- name: shrimp-paste
-  arch: ppc64le
-  os: Linux
-  distro: Fedora
-  ip: "2401:d002:4102:900:f2b1:734c:c317:1c42"
+nodes:
+  - name: min
+    arch: arm64
+    os: Darwin
+    distro: macOS
+    ip: "2001:470:803d:cafe:8a7:1845:7e65:ccf0"
 
-- name: min
-  arch: arm64
-  os: Darwin
-  distro: macOS
-  ip: "2001:470:803d:cafe:8a7:1845:7e65:ccf0"
+  - name: max
+    arch: arm64
+    os: Darwin
+    distro: macOS
+    ip: "2001:470:803d:cafe:1406:65c5:6a78:7601"
 
-- name: x
-  arch: arm64
-  os: Linux
-  distro: Ubuntu
-  ip: "2001:470:803d:cafe:480:a56f:2891:52a2"
+  - name: x
+    arch: arm64
+    os: Linux
+    distro: Ubuntu
+    ip: "2001:470:803d:cafe:480:a56f:2891:52a2"
 
-- name: pi
-  arch: arm64
-  os: Linux
-  distro: Raspbian
-  ip: "2001:470:803d:cafe:6965:f7c6:69b8:3b71"
-  
+  - name: pi
+    arch: arm64
+    os: Linux
+    distro: Raspbian
+    ip: "2001:470:803d:cafe:6965:f7c6:69b8:3b71"
+    
+  - name: pan
+    arch: amd64
+    os: FreeBSD
+    distro: FreeBSD
+    ip: "2001:470:803d:cafe:264b:feff:fec8:d05"
+    
+  - name: shrimp-paste
+    arch: ppc64le
+    os: Linux
+    distro: Fedora
+    ip: "2401:d002:4102:900:f2b1:734c:c317:1c42"
+    exclude_users:
+      - tle
