@@ -2,12 +2,12 @@ users:
   - name: t
     github: tstromberg
     groups:
-      - maintainer
+      - c-maint
 
   - name: briandealwis
     github: briandealwis
     groups:
-      - skaffold
+      - c-skaffold
 
   - name: jonjohnson
     github: jonjohnsonjr
@@ -24,65 +24,65 @@ users:
   - name: priyawadhwa
     github: priyawadhwa
     groups:
-      - minikube
+      - c-minikube
 
   - name: izuyev
     github: ilya-zuyev
     groups:
-      - minikube
+      - c-minikube
 
   - name: selgamal
     github: sharifelgamal
     groups:
-      - minikube
+      - c-minikube
 
   - name: zyanshu
     github: azhao155
     groups:
-      - minikube
+      - c-minikube
 
   - name: afbjorklund
     github: afbjorklund
     groups:
-      - minikube
+      - c-minikube
 
   - name: medya
     github: medyagh
     groups:
-      - minikube
+      - c-minikube
 
   - name: powellsteven
     github: spowelljr
     groups:
-      - minikube
+      - c-minikube
   
   - name: tejaldesai
     github: tejal29
     groups:
-      - skaffold
+      - c-skaffold
       
   - name: gaghosh
     github: gsquared94
     groups:
-      - skaffold
+      - c-skaffold
       
   - name: modali
     github: priyamodali
     groups:
-      - skaffold
+      - c-skaffold
 
   - name: nkubala
     github: nkubala
     groups:
-      - skaffold
+      - c-skaffold
 
   - name: marlongamez
     github: marlongamez
     groups:
-      - skaffold
+      - c-skaffold
       
   - name: tle
     github: runlevel5
     groups:
-      - maintainer
+      - c-maint
 
