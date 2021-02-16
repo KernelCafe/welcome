@@ -45,6 +45,7 @@ For information about individual nodes, see [nodes/nodes.yaml](nodes/nodes.yaml)
 
 ## Coming in March
 
+* kubernetes.kernel.cafe - mixed-architecture Kubernetes cluster
 * arch.arm64.kernel.cafe
 * fedora.amd64.kernel.cafe
 * linux.mips.kernel.cafe
