@@ -17,7 +17,7 @@ Most of the nodes are currently located in San Francisco, CA:
 
 ## Getting access
 
-If you agree to the ([TERMS_OF_SERVICE.md](terms of service), send a PR adding your user to the end of [auth/users.yaml](auth/users.yaml). Once merged, you will be  invited to the organization, and able to SSH in with to `<hostname>.kernel.cafe` with the SSH keys you have provided to GitHub (IPv6 required). For more information, see [docs/FAQ.md](docs/FAQ.md).
+If you agree to the [TERMS_OF_SERVICE.md](terms of service), send a PR adding your user to the end of [auth/users.yaml](auth/users.yaml). Once merged, you will be  invited to the organization, and able to SSH in with to `<hostname>.kernel.cafe` with the SSH keys you have provided to GitHub (IPv6 required). For more information, see [docs/FAQ.md](docs/FAQ.md).
 
 ## What's the state of the café?
 
