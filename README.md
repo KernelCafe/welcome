@@ -4,19 +4,24 @@
 
 <img src="docs/logo.png" width="128">
 
-The kernel café is a volunteer-run virtual hackerspace for open-source developers and fans.
+The kernel café is a volunteer-run virtual hackerspace for open-source developers and fans, providing access to the latest technologies. With it, you get interactive access to connect to hosts running exotic software/hardware combinations, such as:
+
+```
+ssh macos.arm64.kernel.cafe
+ssh linux.ppc64le.kernel.cafe
+```
+
+Most of the nodes are currently located in San Francisco, CA:
 
 <img src="docs/photo.jpg">
 
-We provide public infrastructure with new technologies, such as interactive access to ARM & RISCV hardware, IPv6 networking, bleeding-edge kernels, a public mixed-architecture Kubernetes cluster. Most nodes are located in San Francisco, though we are beginning to bring global nodes online as well. 
-
 ## Getting access
 
-Just send us a PR that adds your username to the bottom of [auth/users.yaml](auth/users.yaml). Once merged, you will be added to the organization, and able to SSH in with to `<hostname>.kernel.cafe` with the SSH keys you have provided to GitHub (IPv6 required)
+If you agree to the ([TERMS_OF_SERVICE.md](terms of service), send a PR adding your user to the end of [auth/users.yaml](auth/users.yaml). Once merged, you will be  invited to the organization, and able to SSH in with to `<hostname>.kernel.cafe` with the SSH keys you have provided to GitHub (IPv6 required). For more information, see [docs/FAQ.md](docs/FAQ.md).
 
 ## What's the state of the café?
 
-As of Feb 14, 2021, the kernel café is in alpha. We are adding machines weekly, and improving our automation to scale out faster. The nodes are not yet considered stable, but will be when the café hits beta on March 1st.
+Alpha. Access to nodes is not expected to be stable until March 1st.
 
 ## Donations
 
@@ -26,45 +31,27 @@ As of Feb 14, 2021, the kernel café is in alpha. We are adding machines weekly,
 
 ## Available Infrastructure
 
-| Hostname     | Alias         | Arch    | Distro      | Hardware                  | Cores | Mem (GB) |
-| ------------ | ------------- | ------- | ----------- | --------------------------- | ----- | -------- |
-| min          | macos.arm64   | arm64   | macOS       | Apple Mac Mini (M1)         | 8     | 16       |
-| max          | macos.amd64   | x86-64  | macOS       | Apple Mac Mini (i7)         | 6     | 32       |     
-| pi           |               | arm64   | Raspbian    | Raspberry Pi 4              | 4     | 8        |
-| x            | linux.arm64.  | arm64   | Ubuntu      | Nvidia AGX Xavier           | 8     | 32       |
-| pan          | freebsd.amd64 | x86-64  | FreeBSD     | Asus PN50 (Ryzen 4700U)     | 8     | 4        |
-| shrimp-paste | linux.ppc64le | ppc64le |  Fedora     | Raptor Blackbird POWER9 🌏  | 8     | 64       | 
+The following SSH aliases are now available:
 
-* 🌏 - Hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
+* freebsd.amd64.kernel.cafe
+* linux.arm64.kernel.cafe
+* linux.ppc64le.kernel.cafe 🌏
+* macos.arm64.kernel.cafe
+* macos.amd64.kernel.cafe
 
+For information about individual nodes, see [nodes/nodes.yaml](nodes/nodes.yaml)
 
-## Incoming Infrastructure (Feb 2021)
+🌏 - Hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
 
-| Hostname     | Alias           | Arch      | Distro       | Hardware                      | Cores |  Mem (GB) |
-| ------------ | --------------- | --------- | ------------ | ----------------------------- | ----- | --------- | 
-| omega        | linux.mips      | mips      | OpenWRT      | Onion Omega2 Dash             | 1     | 128MB     |
-| honey        | linux.arm64     | arm64     | Arch         | SolidRun Honeycomb LX2        | 16    | 64        |
-| rad          | linux.arm32     | arm32     | Raspbian     | Raspberry Pi 3                | 4     | 2         |
-| arctan       | linux.amd64     | x86-64    | Fedora       | HP ProDesk G2 (i7-6700T)      | 4     | 16        |
-| toaster      | netbsd.amd64    | x86-64    | NetBSD       | HP ProDesk G2 (i7-6700T)      | 4     | 16        |
-| k            | kubernetes      | (various) | Kubernetes   | (various)                     | 32+   | 100+      |
+## Coming in March
 
+* arch.arm64.kernel.cafe
+* fedora.amd64.kernel.cafe
+* linux.mips.kernel.cafe
+* netbsd.amd64.kernel.cafe
+* void.arm.kernel.cafe
 
-## Coming Mar 2021 (beta)
+## Coming later
 
-| Hostname     | Alias           | Arch      | Distro       | Hardware                   | Cores |  Mem (GB) |
-| ------------ | --------------- | --------- | ------------ | -------------------------- | ----- | --------- |
-| dory     |                 | arm64     | Fedora       | RockPro64                  | 6     | 4         |
-| nemo  | netbsd.arm64    | arm64     | NetBSD       | RockPro64                  | 6     | 4         |
-| bruce     |                 | arm64     | Arch Linux   | RockPro64                  | 6     | 4         |
-
-## Coming Later (post-release)
-
-* Linux/riscv (SiFive Unleashed)
-* FreeBSD/arm64 (RockPro64)
-* Linux/ppc64le (Talos Blackbird)
-* Windows/x86-64 (Threadripper 1950X)
-* Dragonfly/x64 (QEMU)
-* Linux/s390x (QEMU)
-* ReactOS/x86 (QEMU)
-* Fuschia (TBD)
+* RISCV
+* Fuschia, Plan9, OpenBSD
