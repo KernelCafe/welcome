@@ -16,7 +16,7 @@ Just send us a PR that adds your username to the bottom of [auth/users.yaml](aut
 
 ## What's the state of the café?
 
-As of Feb 14, 2021, the kernel café is in alpha. We are adding machines weekly, and improving our automation to scale out faster. The café is expected to hit beta on March 1st, and public release on April 1st.
+As of Feb 14, 2021, the kernel café is in alpha. We are adding machines weekly, and improving our automation to scale out faster. The nodes are not yet considered stable, but will be when the café hits beta on March 1st.
 
 ## Donations
 
