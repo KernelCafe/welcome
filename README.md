@@ -2,7 +2,7 @@
 
 <a href="https://discord.gg/s8nwgXQaKP"><img src="https://img.shields.io/discord/806023590348062750"></a>
 
-<img src="docs/logo.png">
+<img src="docs/logo.png" width="128">
 
 The kernel café is a volunteer-run virtual hackerspace for open-source developers and fans.
 
