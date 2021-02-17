@@ -46,9 +46,7 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 
 ### ppc64le (POWER9)
 
-* fedora.ppc64le.kernel.cafe 🌏
-
-🌏 - Hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
+* fedora.ppc64le.kernel.cafe - Hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
 
 ## Coming in March
 
