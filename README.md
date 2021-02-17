@@ -31,15 +31,22 @@ Alpha. Access to nodes is not expected to be stable until March 1st.
 
 ## Available Infrastructure
 
-The following SSH aliases are now available:
+These CNAME aliases are the easiest way to access our resources. If you need something more specific, see [nodes/nodes.yaml](nodes/nodes.yaml) for a full list of nodes.
 
+### amd64 (x86-64)
+
+* debian.amd64.kernel.cafe
 * freebsd.amd64.kernel.cafe
-* linux.arm64.kernel.cafe
-* linux.ppc64le.kernel.cafe 🌏
-* macos.arm64.kernel.cafe
 * macos.amd64.kernel.cafe
 
-For information about individual nodes, see [nodes/nodes.yaml](nodes/nodes.yaml)
+### arm64 
+
+* macos.arm64.kernel.cafe
+* ubuntu.arm64.kernel.cafe
+
+### ppc64le (POWER9)
+
+* fedora.ppc64le.kernel.cafe 🌏
 
 🌏 - Hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
 
@@ -48,7 +55,7 @@ For information about individual nodes, see [nodes/nodes.yaml](nodes/nodes.yaml)
 * kubernetes.kernel.cafe - mixed-architecture Kubernetes cluster
 * arch.arm64.kernel.cafe
 * fedora.amd64.kernel.cafe
-* linux.mips.kernel.cafe
+* onion.mips.kernel.cafe
 * netbsd.amd64.kernel.cafe
 * void.arm.kernel.cafe
 
