@@ -45,3 +45,9 @@ nodes:
     ip: "2401:d002:4102:900:f2b1:734c:c317:1c42"
     exclude_users:
       - tle
+
+  - name: deb
+    arch: amd64
+    os: Linux
+    distro: Debian
+    ip: "2001:470:803d:cafe:5a9c:fcff:fe04:fe78"
