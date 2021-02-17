@@ -13,41 +13,82 @@ nodes:
     os: Darwin
     distro: macOS
     ip: "2001:470:803d:cafe:8a7:1845:7e65:ccf0"
+    owner: t
+    location: San Francisco, CA, US
+    hw:
+      desc: Apple Mac Mini (M1)
+      cores: 8
+      memory: 16GB
 
   - name: max
     arch: arm64
     os: Darwin
     distro: macOS
     ip: "2001:470:803d:cafe:1406:65c5:6a78:7601"
+    owner: t
+    location: San Francisco, CA, US
+    hw:
+      desc: Apple Mac Mini (i7)
+      cores: 6
+      memory: 32GB
 
   - name: x
     arch: arm64
     os: Linux
     distro: Ubuntu
     ip: "2001:470:803d:cafe:480:a56f:2891:52a2"
+    owner: t
+    location: San Francisco, CA, US
+    hw:
+      desc: Nvidia Xavier AGX
+      cores: 8
+      memory: 32GB
 
   - name: pi
     arch: arm64
     os: Linux
     distro: Raspbian
     ip: "2001:470:803d:cafe:6965:f7c6:69b8:3b71"
+    owner: t
+    location: San Francisco, CA, US
+    hw:
+      desc: Raspberry Pi 4
+      cores: 4
+      memory: 8GB
     
   - name: pan
     arch: amd64
     os: FreeBSD
     distro: FreeBSD
     ip: "2001:470:803d:cafe:264b:feff:fec8:d05"
+    owner: t
+    location: San Francisco, CA, US
+    hw:
+      desc: Asus PN50 (Ryzen 4700U)
+      cores: 8
+      memory: 64GB    
     
   - name: shrimp-paste
     arch: ppc64le
     os: Linux
     distro: Fedora
     ip: "2401:d002:4102:900:f2b1:734c:c317:1c42"
+    owner: tle
     exclude_users:
       - tle
-
+    location: Melbourne, AU
+    hw:
+      desc: Raptor Blackbird (POWER9)
+      cores: 8
+      memory: 64GB    
+    
   - name: deb
     arch: amd64
     os: Linux
     distro: Debian
     ip: "2001:470:803d:cafe:5a9c:fcff:fe04:fe78"
+    hw:
+      desc: bhyve
+      cores: 2
+      memory: 4GB
+      
