@@ -37,6 +37,7 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 
 * debian.amd64.kernel.cafe
 * freebsd.amd64.kernel.cafe
+* openbsd.amd64.kernel.cafe
 * macos.amd64.kernel.cafe
 
 ### arm64 

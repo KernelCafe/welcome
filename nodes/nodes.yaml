@@ -82,7 +82,7 @@ nodes:
       cores: 8
       memory: 64GB    
     
-  - name: deb
+  - name: debbie
     arch: amd64
     os: Linux
     distro: Debian
@@ -94,7 +94,7 @@ nodes:
       cores: 2
       memory: 4GB
 
-  - name: arch
+  - name: archie
     arch: amd64
     os: Linux
     distro: Arch
@@ -104,5 +104,17 @@ nodes:
     hw:
       desc: bhyve
       cores: 2
-      memory: 2GB
+      memory: 4GB
+      
+  - name: puffy
+    arch: amd64
+    os: OpenBSD
+    distro: OpenBSD
+    ip: "2001:470:803d:cafe:38af:2a70:9306:a17"
+    owner: t
+    location: San Francisco, CA, US
+    hw:
+      desc: bhyve
+      cores: 2
+      memory: 4GB
       
