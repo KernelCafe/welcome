@@ -87,8 +87,22 @@ nodes:
     os: Linux
     distro: Debian
     ip: "2001:470:803d:cafe:5a9c:fcff:fe04:fe78"
+    owner: t
+    location: San Francisco, CA, US
     hw:
       desc: bhyve
       cores: 2
       memory: 4GB
+
+  - name: arch
+    arch: amd64
+    os: Linux
+    distro: Arch
+    ip: "2001:470:803d:cafe:5a9c:fcff:fe0e:2ea7"
+    owner: t
+    location: San Francisco, CA, US
+    hw:
+      desc: bhyve
+      cores: 2
+      memory: 2GB
       
