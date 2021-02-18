@@ -35,18 +35,19 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 
 ### amd64 (x86-64)
 
-* debian.amd64.kernel.cafe
-* freebsd.amd64.kernel.cafe
-* macos.amd64.kernel.cafe
+* archlinux.amd64.kernel.cafe (2-core, 4GB)
+* debian.amd64.kernel.cafe (2-core, 4GB)
+* freebsd.amd64.kernel.cafe (8-core, 64GB)
+* macos.amd64.kernel.cafe (6-core, 32GB)
 
 ### arm64 
 
-* macos.arm64.kernel.cafe
-* ubuntu.arm64.kernel.cafe
+* macos.arm64.kernel.cafe (8-core, 16GB)
+* ubuntu.arm64.kernel.cafe (8-core, 32GB)
 
 ### ppc64le (POWER9)
 
-* fedora.ppc64le.kernel.cafe - Hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
+* fedora.ppc64le.kernel.cafe (8-core, 64GB): hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
 
 ## Coming in March
 
