@@ -44,7 +44,6 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 
 * macos.arm64.kernel.cafe (8-core, 16GB)
 * ubuntu.arm64.kernel.cafe (8-core, 32GB)
-* raspbian.arm64.kernel.cafe (4-core, 8GB)
 
 ### ppc64le (POWER9)
 
@@ -57,6 +56,7 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 * fedora.amd64.kernel.cafe (4-core, 32GB)
 * onion.mips.kernel.cafe (1-core, 128MB)
 * netbsd.amd64.kernel.cafe (4-core, 32GB)
+* raspbian.arm64.kernel.cafe (4-core, 8GB)
 * voidlinux.arm.kernel.cafe (4-core, 4GB)
 
 ## Coming later
