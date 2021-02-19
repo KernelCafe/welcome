@@ -52,18 +52,39 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 
 * fedora.ppc64le.kernel.cafe (8-core, 64GB): hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
 
-## Coming soon (Feb/Mar 2021)
+## Arriving by March 1st
+
+### Kubernetes
 
 * kubernetes.kernel.cafe - mixed-architecture Kubernetes cluster
-* archlinux.arm64.kernel.cafe (16-core, 64GB)
-* fedora.amd64.kernel.cafe (4-core, 32GB)
+
+## ARM
+
+* debian.armhf.kernel.cafe (4-core, 4GB)
+* openbsd.arm64.kernel.cafe (4-core, 8GB)
+* voidlinux.arm64.kernel.cafe (5-core, 4GB)
+* 
+
+## MIPS
+
 * onion.mips.kernel.cafe (1-core, 128MB)
+
+## x86
+
+* archlinux.arm64.kernel.cafe (16-core, 64GB)
 * smartos.amd64.kernel.cafe (4-core, 32GB)
 * netbsd.amd64.kernel.cafe (2-core, 4GB)
-* raspbian.arm64.kernel.cafe (4-core, 8GB)
-* voidlinux.arm.kernel.cafe (4-core, 4GB)
+* dragonflybsd.amd64.kernel.cafe (2-core, 4GB)
 
-## Coming later
+## Arriving later
 
-* RISCV
-* Fuschia, Plan9, OpenBSD
+## RISCV
+
+* Linux/riscv
+
+## x86
+
+* Fuschia
+* 9front
+* ReactOS
+* Windows
