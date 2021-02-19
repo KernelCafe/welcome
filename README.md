@@ -37,12 +37,14 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 
 * archlinux.amd64.kernel.cafe (2-core, 4GB)
 * debian.amd64.kernel.cafe (2-core, 4GB)
+* fedora.amd64.kernel.cafe (4-core, 16GB)
 * freebsd.amd64.kernel.cafe (8-core, 64GB)
 * openbsd.amd64.kernel.cafe (2-core, 4GB)
 * macos.amd64.kernel.cafe (6-core, 32GB)
 
 ### arm64 
 
+* debian.arm64.kernel.cafe (5-core, 4GB)
 * macos.arm64.kernel.cafe (8-core, 16GB)
 * ubuntu.arm64.kernel.cafe (8-core, 32GB)
 
@@ -56,7 +58,7 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 * archlinux.arm64.kernel.cafe (16-core, 64GB)
 * fedora.amd64.kernel.cafe (4-core, 32GB)
 * onion.mips.kernel.cafe (1-core, 128MB)
-* illumos.amd64.kernel.cafe (4-core, 32GB)
+* smartos.amd64.kernel.cafe (4-core, 32GB)
 * netbsd.amd64.kernel.cafe (2-core, 4GB)
 * raspbian.arm64.kernel.cafe (4-core, 8GB)
 * voidlinux.arm.kernel.cafe (4-core, 4GB)
