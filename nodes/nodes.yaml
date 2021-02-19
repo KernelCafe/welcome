@@ -117,4 +117,27 @@ nodes:
       desc: bhyve
       cores: 2
       memory: 4GB
-      
+
+  - name: dory
+    arch: arm64
+    os: Linux
+    distro: Debian
+    ip: "2001:470:803d:cafe:f3c6:b27a:9bec:efe8"
+    owner: t
+    location: San Francisco, CA, US
+    hw:
+      desc: ROCKPro64 (Rockchip RK3399)
+      cores: 5
+      memory: 4GB
+
+  - name: freddie
+    arch: amd64
+    os: Linux
+    distro: Fedora
+    ip: "2001:470:803d:cafe:cad3:ffff:fe9b:14ee"
+    owner: t
+    location: San Francisco, CA, US
+    hw:
+      desc: HP ProDesk 600 (i7-6700T)
+      cores: 4
+      memory: 16GB
