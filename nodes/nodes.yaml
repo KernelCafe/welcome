@@ -69,18 +69,18 @@ nodes:
       memory: 64GB    
     
   - name: shrimp-paste
-    arch: ppc64le
+    arch: ppc64
     os: Linux
-    distro: Fedora
+    distro: Void
     ip: "2401:d002:4102:900:f2b1:734c:c317:1c42"
     owner: tle
     exclude_users:
       - tle
     location: Melbourne, AU
     hw:
-      desc: Raptor Blackbird (POWER9)
+      desc: KVM/QEM on Raptor Blackbird (POWER9) host
       cores: 8
-      memory: 64GB    
+      memory: 8GB
     
   - name: debbie
     arch: amd64

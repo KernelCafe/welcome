@@ -48,9 +48,9 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 * macos.arm64.kernel.cafe (8-core, 16GB)
 * ubuntu.arm64.kernel.cafe (8-core, 32GB)
 
-### ppc64le (POWER9)
+### ppc64 (POWER9)
 
-* fedora.ppc64le.kernel.cafe (8-core, 64GB): hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
+* voidlinux.ppc64.kernel.cafe (8-core, 8GB): hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
 
 ## Arriving by March 1st
 
@@ -75,6 +75,10 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 * smartos.amd64.kernel.cafe (4-core, 32GB)
 * netbsd.amd64.kernel.cafe (2-core, 4GB)
 * dragonflybsd.amd64.kernel.cafe (2-core, 4GB)
+
+### ppc64le (POWER9)
+
+* fedora.ppc64le.kernel.cafe (8-core, 8GB): hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
 
 ## Arriving later
 
