@@ -67,7 +67,7 @@ nodes:
       desc: Asus PN50 (Ryzen 4700U)
       cores: 8
       memory: 64GB    
-    
+
   - name: shrimp-paste
     arch: ppc64
     os: Linux
@@ -81,7 +81,21 @@ nodes:
       desc: KVM/QEM on Raptor Blackbird (POWER9) host
       cores: 8
       memory: 8GB
-    
+
+  - name: trym
+    arch: ppc64le
+    os: Linux
+    distro: Fedora
+    ip: "2401:d002:4102:900:bad:beef:cafe:babe"
+    owner: tle
+    exclude_users:
+      - tle
+    location: Melbourne, AU
+    hw:
+      desc: KVM/QEM on Raptor Blackbird (POWER9) host
+      cores: 8
+      memory: 8GB
+
   - name: debbie
     arch: amd64
     os: Linux
