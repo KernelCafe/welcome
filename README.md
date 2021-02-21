@@ -66,39 +66,17 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 ### Kubernetes
 
 * kubernetes.kernel.cafe - mixed-architecture Kubernetes cluster
-
-## arm64
-
 * archlinux.arm64.kernel.cafe (16-core, 64GB)
 * openbsd.arm64.kernel.cafe (4-core, 8GB)
 * voidlinux.arm64.kernel.cafe (5-core, 4GB)
-
-# arm
-
-* debian.arm.kernel.cafe (4-core, 8GB)
-
-## MIPS
-
 * onion.mips.kernel.cafe (1-core, 128MB)
-
-## x86
-
 * netbsd.amd64.kernel.cafe (2-core, 4GB)
 * dragonflybsd.amd64.kernel.cafe (2-core, 4GB)
 
-### ppc64le (POWER9)
-
-* fedora.ppc64le.kernel.cafe (8-core, 8GB): hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
-
 ## Arriving later
 
-## RISCV
-
 * Linux/riscv
-
-## x86
-
-* Fuschia
-* 9front
-* ReactOS
-* Windows
+* Fuschia/amd64
+* 9front/amd64
+* ReactOS/amd64
+* Windows/amd64
