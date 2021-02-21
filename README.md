@@ -43,15 +43,23 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 * openbsd.amd64.kernel.cafe (2-core, 4GB)
 * macos.amd64.kernel.cafe (6-core, 32GB)
 
-### arm64 
+### arm (32-bit)
+
+* debian.arm.kernel.cafe (4-core, 8GB)
+
+### arm64
 
 * debian.arm64.kernel.cafe (5-core, 4GB)
 * macos.arm64.kernel.cafe (8-core, 16GB)
 * ubuntu.arm64.kernel.cafe (8-core, 32GB)
 
-### ppc64 (POWER9)
+### ppc64 (POWER9, big endian)
 
 * voidlinux.ppc64.kernel.cafe (8-core, 8GB): hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
+
+### ppc64le (POWER9, little endian)
+
+* fedora.ppc64le.kernel.cafe (8-core, 8GB): hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
 
 ## Arriving by March 1st
 
@@ -59,12 +67,15 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 
 * kubernetes.kernel.cafe - mixed-architecture Kubernetes cluster
 
-## ARM
+## arm64
 
 * archlinux.arm64.kernel.cafe (16-core, 64GB)
-* debian.armhf.kernel.cafe (4-core, 4GB)
 * openbsd.arm64.kernel.cafe (4-core, 8GB)
 * voidlinux.arm64.kernel.cafe (5-core, 4GB)
+
+# arm
+
+* debian.arm.kernel.cafe (4-core, 8GB)
 
 ## MIPS
 
