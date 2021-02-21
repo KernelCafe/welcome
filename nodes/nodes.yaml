@@ -141,3 +141,15 @@ nodes:
       desc: HP ProDesk 600 (i7-6700T)
       cores: 4
       memory: 16GB
+
+  - name: uzone
+    arch: amd64
+    os: Illumos
+    distro: SmartOS
+    ip: "2001:470:803d:cafe:c0db:8ff:fe7a:4694"
+    owner: t
+    location: San Francisco, CA, US
+    hw:
+      desc: User zone on HP ProDesk 600 (i7-6700T)
+      cores: 4
+      memory: 4GB
