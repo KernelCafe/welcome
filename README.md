@@ -61,6 +61,7 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 
 ## ARM
 
+* archlinux.arm64.kernel.cafe (16-core, 64GB)
 * debian.armhf.kernel.cafe (4-core, 4GB)
 * openbsd.arm64.kernel.cafe (4-core, 8GB)
 * voidlinux.arm64.kernel.cafe (5-core, 4GB)
@@ -71,7 +72,6 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 
 ## x86
 
-* archlinux.arm64.kernel.cafe (16-core, 64GB)
 * netbsd.amd64.kernel.cafe (2-core, 4GB)
 * dragonflybsd.amd64.kernel.cafe (2-core, 4GB)
 
