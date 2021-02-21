@@ -39,6 +39,7 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 * debian.amd64.kernel.cafe (2-core, 4GB)
 * fedora.amd64.kernel.cafe (4-core, 16GB)
 * freebsd.amd64.kernel.cafe (8-core, 64GB)
+* illumos.amd64.kernel.cafe (4-core, 16GB)
 * openbsd.amd64.kernel.cafe (2-core, 4GB)
 * macos.amd64.kernel.cafe (6-core, 32GB)
 
