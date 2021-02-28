@@ -39,56 +39,44 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 * debian.amd64.kernel.cafe (2-core, 4GB)
 * fedora.amd64.kernel.cafe (4-core, 16GB)
 * freebsd.amd64.kernel.cafe (8-core, 64GB)
+* illumos.amd64.kernel.cafe (4-core, 16GB)
 * openbsd.amd64.kernel.cafe (2-core, 4GB)
 * macos.amd64.kernel.cafe (6-core, 32GB)
 
-### arm64 
+### arm (32-bit)
+
+* debian.arm.kernel.cafe (4-core, 8GB)
+
+### arm64
 
 * debian.arm64.kernel.cafe (5-core, 4GB)
 * macos.arm64.kernel.cafe (8-core, 16GB)
 * ubuntu.arm64.kernel.cafe (8-core, 32GB)
 
-### ppc64 (POWER9)
+### ppc64 (POWER9, big endian)
 
 * voidlinux.ppc64.kernel.cafe (8-core, 8GB): hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
+
+### ppc64le (POWER9, little endian)
+
+* fedora.ppc64le.kernel.cafe (8-core, 8GB): hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
 
 ## Arriving by March 1st
 
 ### Kubernetes
 
 * kubernetes.kernel.cafe - mixed-architecture Kubernetes cluster
-
-## ARM
-
-* debian.armhf.kernel.cafe (4-core, 4GB)
+* archlinux.arm64.kernel.cafe (16-core, 64GB)
 * openbsd.arm64.kernel.cafe (4-core, 8GB)
 * voidlinux.arm64.kernel.cafe (5-core, 4GB)
-* 
-
-## MIPS
-
 * onion.mips.kernel.cafe (1-core, 128MB)
-
-## x86
-
-* archlinux.arm64.kernel.cafe (16-core, 64GB)
-* smartos.amd64.kernel.cafe (4-core, 32GB)
 * netbsd.amd64.kernel.cafe (2-core, 4GB)
 * dragonflybsd.amd64.kernel.cafe (2-core, 4GB)
 
-### ppc64le (POWER9)
-
-* fedora.ppc64le.kernel.cafe (8-core, 8GB): hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
-
 ## Arriving later
 
-## RISCV
-
 * Linux/riscv
-
-## x86
-
-* Fuschia
-* 9front
-* ReactOS
-* Windows
+* Fuschia/amd64
+* 9front/amd64
+* ReactOS/amd64
+* Windows/amd64
