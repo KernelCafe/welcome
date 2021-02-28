@@ -180,3 +180,16 @@ nodes:
       cores: 16
       memory: 64GB
 
+  - name: dash
+    arch: mips
+    os: Linux
+    distro: OnionOS
+    ip: "2001:470:803d:cafe:42a3:6bff:fec4:d322"
+    owner: t
+    location: San Francisco, CA, US
+    shell: /bin/ash
+    hw:
+      desc: Onion Omega2 Dash
+      cores: 1
+      memory: 128MB
+
