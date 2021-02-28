@@ -50,6 +50,7 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 ### arm64
 
 * debian.arm64.kernel.cafe (5-core, 4GB)
+* gentoo.arm64.kernel.cafe (16-core, 64GB)
 * macos.arm64.kernel.cafe (8-core, 16GB)
 * ubuntu.arm64.kernel.cafe (8-core, 32GB)
 
@@ -66,7 +67,6 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 ### Kubernetes
 
 * kubernetes.kernel.cafe - mixed-architecture Kubernetes cluster
-* archlinux.arm64.kernel.cafe (16-core, 64GB)
 * openbsd.arm64.kernel.cafe (4-core, 8GB)
 * voidlinux.arm64.kernel.cafe (5-core, 4GB)
 * onion.mips.kernel.cafe (1-core, 128MB)
