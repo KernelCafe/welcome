@@ -45,7 +45,7 @@ nodes:
       memory: 32GB
 
   - name: pi
-    arch: arm64
+    arch: armv7l
     os: Linux
     distro: Raspbian
     ip: "2001:470:803d:cafe:6965:f7c6:69b8:3b71"
@@ -82,7 +82,7 @@ nodes:
       cores: 8
       memory: 8GB
     
-  - name: debbie
+  - name: pn-debian
     arch: amd64
     os: Linux
     distro: Debian
@@ -94,7 +94,7 @@ nodes:
       cores: 2
       memory: 4GB
 
-  - name: archie
+  - name: pn-arch
     arch: amd64
     os: Linux
     distro: Arch
@@ -106,7 +106,7 @@ nodes:
       cores: 2
       memory: 4GB
       
-  - name: puffy
+  - name: pn-openbsd
     arch: amd64
     os: OpenBSD
     distro: OpenBSD
@@ -153,3 +153,16 @@ nodes:
       desc: User zone on HP ProDesk 600 (i7-6700T)
       cores: 4
       memory: 4GB
+
+  - name: honeycomb
+    arch: arm64
+    os: Linux
+    distro: Gentoo
+    ip: "2001:470:803d:cafe:7086:80ff:fe37:482c"
+    owner: t
+    location: San Francisco, CA, US
+    hw:
+      desc: Honeycomb LX2 ARM Workstation
+      cores: 16
+      memory: 64GB
+
