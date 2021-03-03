@@ -56,7 +56,7 @@ nodes:
       cores: 4
       memory: 8GB
     
-  - name: pan
+  - name: pneumatic
     arch: amd64
     os: FreeBSD
     distro: FreeBSD
