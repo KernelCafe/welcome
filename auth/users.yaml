@@ -94,3 +94,6 @@ users:
     
   - name: dims
     github: dims
+
+  - name: detiber
+    github: detiber
