@@ -91,3 +91,6 @@ users:
 
   - name: enricobilla
     github: enricobilla
+    
+  - name: dims
+    github: dims
