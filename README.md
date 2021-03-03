@@ -17,7 +17,13 @@ Most of the nodes are currently located in San Francisco, CA:
 
 ## Getting access
 
-If you agree to the [terms of service](TERMS_OF_SERVICE.md), send a PR adding your user to the end of [auth/users.yaml](auth/users.yaml). Once merged, you will be  invited to the organization, and able to SSH in with to `<hostname>.kernel.cafe` with the SSH keys you have provided to GitHub (IPv6 required). For more information, see [docs/FAQ.md](docs/FAQ.md).
+1. Confirm that your ISP provides IPv6 connectivity: https://ipv6test.google.com
+
+  * If not, talk to your ISP, or use a service such as http://tunnelbroker.net/ to acquire an IPv6 address
+
+2. Read the [terms of service](TERMS_OF_SERVICE.md)
+3. Send a PR adding your username to the end of [auth/users.yaml](auth/users.yaml). 
+4. Once merged, you will be ble to SSH in with to `<hostname>.kernel.cafe` with the SSH keys you have provided to GitHub.
 
 ## What's the state of the café?
 
