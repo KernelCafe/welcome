@@ -62,9 +62,7 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 
 * fedora.ppc64le.kernel.cafe (8-core, 8GB): hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
 
-## Arriving by March 1st
-
-### Kubernetes
+## Arriving in March
 
 * kubernetes.kernel.cafe - mixed-architecture Kubernetes cluster
 * openbsd.arm64.kernel.cafe (4-core, 8GB)
