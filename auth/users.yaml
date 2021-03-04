@@ -98,5 +98,8 @@ users:
   - name: detiber
     github: detiber
 
+  - name: evalsocket
+    github: evalsocket
+
   - name: luigi
     github: luigibarbato
