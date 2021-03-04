@@ -97,3 +97,6 @@ users:
 
   - name: detiber
     github: detiber
+
+  - name: luigi
+    github: luigibarbato
