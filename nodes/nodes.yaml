@@ -95,6 +95,20 @@ nodes:
       desc: KVM/QEM on Raptor Blackbird (POWER9) host
       cores: 8
       memory: 8GB
+      
+  - name: fansipan
+    arch: ppc64le
+    os: Linux
+    distro: Fedora
+    ip: "2401:d002:4102:900:cafe:cafe:cafe:cafe"
+    owner: tle
+    exclude_users:
+      - tle
+    location: Melbourne, AU
+    hw:
+      desc: KVM/QEM on Raptor Blackbird (POWER9) host
+      cores: 8
+      memory: 8GB
 
   - name: pn-debian
     arch: amd64
