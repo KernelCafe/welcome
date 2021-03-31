@@ -100,3 +100,6 @@ users:
 
   - name: evalsocket
     github: evalsocket
+
+  - name: hieuvo
+    github: hieuvo
