@@ -27,10 +27,6 @@ As of August, 2021 - the kernel cafe is closed due to lack of interest. Thank yo
 3. Send a PR adding your username to the end of [auth/users.yaml](auth/users.yaml). 
 4. Once merged, you will be ble to SSH in with to `<hostname>.kernel.cafe` with the SSH keys you have provided to GitHub.
 
-## What's the state of the café?
-
-Alpha. Access to nodes is not expected to be stable until March 1st.
-
 ## Donations
 
 * We are not yet accepting monetary donations, but plan to accept donations to offset power consumption costs via Paypal & GitHub sponsors.
