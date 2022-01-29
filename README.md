@@ -1,6 +1,4 @@
-# welcome to the kernel café!
-
-<a href="https://discord.gg/s8nwgXQaKP"><img src="https://img.shields.io/discord/806023590348062750"></a>
+# welcome to the kernel café! (we're closed)
 
 <img src="docs/logo.png" width="128">
 
@@ -14,6 +12,10 @@ ssh linux.ppc64le.kernel.cafe
 Most of the nodes are currently located in San Francisco, CA:
 
 <img src="docs/photo.jpg">
+
+## We're Closed! (Aug 2021)
+
+As of August, 2021 - the kernel cafe is closed due to lack of interest. Thank you for those who participated in our project!
 
 ## Getting access
 
