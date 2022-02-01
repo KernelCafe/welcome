@@ -55,7 +55,7 @@ nodes:
       desc: Raspberry Pi 4
       cores: 4
       memory: 8GB
-    
+
   - name: pneumatic
     arch: amd64
     os: FreeBSD
@@ -66,85 +66,7 @@ nodes:
     hw:
       desc: Asus PN50 (Ryzen 4700U)
       cores: 8
-      memory: 64GB    
-
-  - name: shrimp-paste
-    arch: ppc64
-    os: Linux
-    distro: Void
-    ip: "2401:d002:4102:900:f2b1:734c:c317:1c42"
-    owner: tle
-    exclude_users:
-      - tle
-    location: Melbourne, AU
-    hw:
-      desc: KVM/QEM on Raptor Blackbird (POWER9) host
-      cores: 8
-      memory: 8GB
-
-  - name: trym
-    arch: ppc64le
-    os: Linux
-    distro: Fedora
-    ip: "2401:d002:4102:900:bad:beef:cafe:babe"
-    owner: tle
-    exclude_users:
-      - tle
-    location: Melbourne, AU
-    hw:
-      desc: KVM/QEM on Raptor Blackbird (POWER9) host
-      cores: 8
-      memory: 8GB
-      
-  - name: fansipan
-    arch: ppc64le
-    os: Linux
-    distro: Fedora
-    ip: "2401:d002:4102:900:cafe:cafe:cafe:cafe"
-    owner: tle
-    exclude_users:
-      - tle
-    location: Melbourne, AU
-    hw:
-      desc: KVM/QEM on Raptor Blackbird (POWER9) host
-      cores: 8
-      memory: 8GB
-
-  - name: pn-debian
-    arch: amd64
-    os: Linux
-    distro: Debian
-    ip: "2001:470:803d:cafe:5a9c:fcff:fe04:fe78"
-    owner: t
-    location: San Francisco, CA, US
-    hw:
-      desc: bhyve
-      cores: 2
-      memory: 4GB
-
-  - name: pn-arch
-    arch: amd64
-    os: Linux
-    distro: Arch
-    ip: "2001:470:803d:cafe:5a9c:fcff:fe0e:2ea7"
-    owner: t
-    location: San Francisco, CA, US
-    hw:
-      desc: bhyve
-      cores: 2
-      memory: 4GB
-      
-  - name: pn-openbsd
-    arch: amd64
-    os: OpenBSD
-    distro: OpenBSD
-    ip: "2001:470:803d:cafe:38af:2a70:9306:a17"
-    owner: t
-    location: San Francisco, CA, US
-    hw:
-      desc: bhyve
-      cores: 2
-      memory: 4GB
+      memory: 64GB
 
   - name: dory
     arch: arm64
@@ -181,29 +103,4 @@ nodes:
       desc: User zone on HP ProDesk 600 (i7-6700T)
       cores: 4
       memory: 4GB
-
-  - name: honeycomb
-    arch: arm64
-    os: Linux
-    distro: Gentoo
-    ip: "2001:470:803d:cafe:7086:80ff:fe37:482c"
-    owner: t
-    location: San Francisco, CA, US
-    hw:
-      desc: Honeycomb LX2 ARM Workstation
-      cores: 16
-      memory: 64GB
-
-  - name: dash
-    arch: mips
-    os: Linux
-    distro: OnionOS
-    ip: "2001:470:803d:cafe:42a3:6bff:fec4:d322"
-    owner: t
-    location: San Francisco, CA, US
-    shell: /bin/ash
-    hw:
-      desc: Onion Omega2 Dash
-      cores: 1
-      memory: 128MB
 
