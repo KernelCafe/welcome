@@ -1,4 +1,4 @@
-# welcome to the kernel café! (we're closed)
+# welcome to the kernel café!
 
 <img src="docs/logo.png" width="128">
 
@@ -12,10 +12,6 @@ ssh linux.ppc64le.kernel.cafe
 Most of the nodes are currently located in San Francisco, CA:
 
 <img src="docs/photo.jpg">
-
-## We're Closed! (Aug 2021)
-
-As of August, 2021 - the kernel cafe is closed due to lack of interest. Thank you for those who participated in our project!
 
 ## Getting access
 
@@ -42,10 +38,9 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 * archlinux.amd64.kernel.cafe (2-core, 4GB)
 * fedora.amd64.kernel.cafe (4-core, 16GB)
 * macos.amd64.kernel.cafe (6-core, 32GB)
-* debian.amd64.kernel.cafe (2-core, 4GB) -- not yet stable
-* freebsd.amd64.kernel.cafe (8-core, 64GB) -- not yet stable
+* debian.amd64.kernel.cafe (2-core, 4GB)
+* freebsd.amd64.kernel.cafe (8-core, 64GB)
 * illumos.amd64.kernel.cafe (4-core, 16GB) -- not yet stable
-* openbsd.amd64.kernel.cafe (2-core, 4GB) -- not yet stable
 
 ### arm (32-bit)
 
@@ -54,31 +49,9 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 ### arm64
 
 * debian.arm64.kernel.cafe (5-core, 4GB)
-* gentoo.arm64.kernel.cafe (16-core, 64GB)
 * macos.arm64.kernel.cafe (8-core, 16GB)
 * ubuntu.arm64.kernel.cafe (8-core, 32GB)
 
-### ppc64 (POWER9, big endian)
+## Coming Soon
 
-* voidlinux.ppc64.kernel.cafe (8-core, 8GB): hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
-
-### ppc64le (POWER9, little endian)
-
-* fedora.ppc64le.kernel.cafe (8-core, 8GB): hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
-
-## Arriving in March
-
-* kubernetes.kernel.cafe - mixed-architecture Kubernetes cluster
-* openbsd.arm64.kernel.cafe (4-core, 8GB)
-* voidlinux.arm64.kernel.cafe (5-core, 4GB)
-* onion.mips.kernel.cafe (1-core, 128MB)
-* netbsd.amd64.kernel.cafe (2-core, 4GB)
-* dragonflybsd.amd64.kernel.cafe (2-core, 4GB)
-
-## Arriving later
-
-* Linux/riscv
-* Fuschia/amd64
-* 9front/amd64
-* ReactOS/amd64
-* Windows/amd64
+* ubuntu.riscv.kernel.cafe (4-core, 16GB)
