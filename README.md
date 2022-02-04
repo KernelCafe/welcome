@@ -48,6 +48,7 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 
 ### arm64
 
+* gentoo.arm64.kernel.cafe (16-core, 64GB)
 * debian.arm64.kernel.cafe (5-core, 4GB)
 * macos.arm64.kernel.cafe (8-core, 16GB)
 * ubuntu.arm64.kernel.cafe (8-core, 32GB)
