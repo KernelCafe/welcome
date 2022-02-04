@@ -92,15 +92,27 @@ nodes:
       cores: 4
       memory: 16GB
 
-  - name: uzone
-    arch: amd64
-    os: Illumos
-    distro: SmartOS
-    ip: "2001:470:803d:cafe:c0db:8ff:fe7a:4694"
+- name: honeycomb
+    arch: arm64
+    os: Linux
+    distro: Gentoo
+    ip: "2001:470:803d:cafe:7086:80ff:fe37:482c"
     owner: t
     location: San Francisco, CA, US
     hw:
-      desc: User zone on HP ProDesk 600 (i7-6700T)
-      cores: 4
-      memory: 4GB
+      desc: Honeycomb LX2 ARM Workstation
+      cores: 16
+      memory: 64GB
 
+  - name: dash
+    arch: mips
+    os: Linux
+    distro: OnionOS
+    ip: "2001:470:803d:cafe:42a3:6bff:fec4:d322"
+    owner: t
+    location: San Francisco, CA, US
+    shell: /bin/ash
+    hw:
+      desc: Onion Omega2 Dash
+      cores: 1
+      memory: 128MB
