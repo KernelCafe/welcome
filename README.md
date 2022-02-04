@@ -1,7 +1,5 @@
 # welcome to the kernel café!
 
-<a href="https://discord.gg/s8nwgXQaKP"><img src="https://img.shields.io/discord/806023590348062750"></a>
-
 <img src="docs/logo.png" width="128">
 
 The kernel café is a volunteer-run virtual hackerspace for open-source developers and fans, providing access to the latest technologies. With it, you get interactive access to connect to hosts running exotic software/hardware combinations, such as:
@@ -25,10 +23,6 @@ Most of the nodes are currently located in San Francisco, CA:
 3. Send a PR adding your username to the end of [auth/users.yaml](auth/users.yaml). 
 4. Once merged, you will be ble to SSH in with to `<hostname>.kernel.cafe` with the SSH keys you have provided to GitHub.
 
-## What's the state of the café?
-
-Alpha. Access to nodes is not expected to be stable until March 1st.
-
 ## Donations
 
 * We are not yet accepting monetary donations, but plan to accept donations to offset power consumption costs via Paypal & GitHub sponsors.
@@ -44,10 +38,9 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 * archlinux.amd64.kernel.cafe (2-core, 4GB)
 * fedora.amd64.kernel.cafe (4-core, 16GB)
 * macos.amd64.kernel.cafe (6-core, 32GB)
-* debian.amd64.kernel.cafe (2-core, 4GB) -- not yet stable
-* freebsd.amd64.kernel.cafe (8-core, 64GB) -- not yet stable
+* debian.amd64.kernel.cafe (2-core, 4GB)
+* freebsd.amd64.kernel.cafe (8-core, 64GB)
 * illumos.amd64.kernel.cafe (4-core, 16GB) -- not yet stable
-* openbsd.amd64.kernel.cafe (2-core, 4GB) -- not yet stable
 
 ### arm (32-bit)
 
@@ -55,32 +48,11 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 
 ### arm64
 
-* debian.arm64.kernel.cafe (5-core, 4GB)
 * gentoo.arm64.kernel.cafe (16-core, 64GB)
+* debian.arm64.kernel.cafe (5-core, 4GB)
 * macos.arm64.kernel.cafe (8-core, 16GB)
 * ubuntu.arm64.kernel.cafe (8-core, 32GB)
 
-### ppc64 (POWER9, big endian)
+## Coming Soon
 
-* voidlinux.ppc64.kernel.cafe (8-core, 8GB): hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
-
-### ppc64le (POWER9, little endian)
-
-* fedora.ppc64le.kernel.cafe (8-core, 8GB): hosted in Australia by <a href="https://github.com/runlevel5">@runlevel5</a>
-
-## Arriving in March
-
-* kubernetes.kernel.cafe - mixed-architecture Kubernetes cluster
-* openbsd.arm64.kernel.cafe (4-core, 8GB)
-* voidlinux.arm64.kernel.cafe (5-core, 4GB)
-* onion.mips.kernel.cafe (1-core, 128MB)
-* netbsd.amd64.kernel.cafe (2-core, 4GB)
-* dragonflybsd.amd64.kernel.cafe (2-core, 4GB)
-
-## Arriving later
-
-* Linux/riscv
-* Fuschia/amd64
-* 9front/amd64
-* ReactOS/amd64
-* Windows/amd64
+* ubuntu.riscv.kernel.cafe (4-core, 16GB)

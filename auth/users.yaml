@@ -4,17 +4,20 @@ users:
     groups:
       - c-maint
 
+  - name: tle
+    github: runlevel5
+    groups:
+      - c-maint
+
   - name: briandealwis
     github: briandealwis
-    groups:
-      - c-skaffold
 
   - name: jonjohnson
     github: jonjohnsonjr
 
   - name: urbano
     github: puerco
-  
+
   - name: suztomo
     github: suztomo
 
@@ -23,75 +26,43 @@ users:
 
   - name: priyawadhwa
     github: priyawadhwa
-    groups:
-      - c-minikube
 
   - name: izuyev
     github: ilya-zuyev
-    groups:
-      - c-minikube
 
   - name: selgamal
     github: sharifelgamal
-    groups:
-      - c-minikube
 
   - name: zyanshu
     github: azhao155
-    groups:
-      - c-minikube
 
   - name: afbjorklund
     github: afbjorklund
-    groups:
-      - c-minikube
 
   - name: medya
     github: medyagh
-    groups:
-      - c-minikube
 
   - name: powellsteven
     github: spowelljr
-    groups:
-      - c-minikube
-  
+
   - name: tejaldesai
     github: tejal29
-    groups:
-      - c-skaffold
-      
+
   - name: gaghosh
     github: gsquared94
-    groups:
-      - c-skaffold
-      
-  - name: modali
-    github: priyamodali
-    groups:
-      - c-skaffold
 
   - name: nkubala
     github: nkubala
-    groups:
-      - c-skaffold
 
   - name: marlongamez
     github: marlongamez
-    groups:
-      - c-skaffold
-      
-  - name: tle
-    github: runlevel5
-    groups:
-      - c-maint
 
   - name: luizirber
     github: luizirber
 
   - name: enricobilla
     github: enricobilla
-    
+
   - name: dims
     github: dims
 
@@ -101,5 +72,9 @@ users:
   - name: evalsocket
     github: evalsocket
 
+  - name: klaases
+    github: klaases
+
   - name: imjasonh
     github: imjasonh
+   
