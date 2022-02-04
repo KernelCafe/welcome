@@ -92,7 +92,7 @@ nodes:
       cores: 4
       memory: 16GB
 
-- name: honeycomb
+  - name: honeycomb
     arch: arm64
     os: Linux
     distro: Gentoo
