@@ -13,6 +13,23 @@ Most of the nodes are currently located in San Francisco, CA:
 
 <img src="docs/photo.jpg">
 
+## NEWS
+
+### Hardware Refresh (2021-02-07)
+
+To celebrate our first year in operation, we're doing a massive hardware and operating-system refresh!
+
+* 5 architectures: amd64, armhf, arm64, mips, riscv
+* 9 kernels: Windows, Linux, macOS, Solaris, NetBSD, OpenBSD, FreeBSD, Plan9, Hurd
+* 8 Linux distributions: Alpine, Arch, Fedora, Gentoo, Raspbian, OnionOS, PostmarketOS, Ubuntu
+* 6 new physical nodes to replace the existing virtual ones
+
+As such, expect host availability to be in flux over the next few weeks.
+
+### Dormancy (2021-08-01)
+
+The admins are on vacation and power to the datacenter went out, so the kernel.cafe will be unavailable for a few weeks.
+
 ## Getting access
 
 1. Confirm that your ISP provides IPv6 connectivity: https://ipv6test.google.com
@@ -40,19 +57,15 @@ These CNAME aliases are the easiest way to access our resources. If you need som
 * macos.amd64.kernel.cafe (6-core, 32GB)
 * debian.amd64.kernel.cafe (2-core, 4GB)
 * freebsd.amd64.kernel.cafe (8-core, 64GB)
-* illumos.amd64.kernel.cafe (4-core, 16GB) -- not yet stable
 
 ### arm (32-bit)
 
 * debian.arm.kernel.cafe (4-core, 8GB)
 
-### arm64
+### arm64 (64-bit)
 
 * gentoo.arm64.kernel.cafe (16-core, 64GB)
 * debian.arm64.kernel.cafe (5-core, 4GB)
 * macos.arm64.kernel.cafe (8-core, 16GB)
 * ubuntu.arm64.kernel.cafe (8-core, 32GB)
 
-## Coming Soon
-
-* ubuntu.riscv.kernel.cafe (4-core, 16GB)
