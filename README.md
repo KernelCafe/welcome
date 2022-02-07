@@ -40,6 +40,8 @@ The admins are on vacation and power to the datacenter went out, so the kernel.c
 3. Send a PR adding your username to the end of [auth/users.yaml](auth/users.yaml). 
 4. Once merged, you will be ble to SSH in with to `<hostname>.kernel.cafe` with the SSH keys you have provided to GitHub.
 
+If you require additional software or elevated priveleges, please open an issue.
+
 ## Donations
 
 * We are not yet accepting monetary donations, but plan to accept donations to offset power consumption costs via Paypal & GitHub sponsors.
