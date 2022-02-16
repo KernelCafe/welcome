@@ -44,9 +44,9 @@ If you require additional software or elevated priveleges, please open an issue.
 
 ## Donations
 
-* We are not yet accepting monetary donations, but plan to accept donations to offset power consumption costs via Paypal & GitHub sponsors.
 * We are accepting nodes from the community to come join in ([documentation](https://github.com/KernelCafe/automation/)). 
-* We are accepting hardware donations for hosts running modern CPU architectures, with a strong preference towards low power consumption. We are very much interested in improving our support for riscv, mips, and ppc64le.
+* We are accepting hardware donations for hosts running modern CPU architectures, with a strong preference towards low power consumption
+* We do not accept monetary donations
 
 ## Available Infrastructure
 
